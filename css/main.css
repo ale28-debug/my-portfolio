@@ -1,0 +1,94 @@
+h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#portfolio .container{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 600px;
+}
+
+#portfolio .container .html-css ul li, #portfolio .container .bootstrap ul li,
+#portfolio .container .bootstrap-sass ul li,
+#portfolio .container .html-css-js ul li,
+#portfolio .container .bootstrap-sass-js ul li{
+    list-style: none;
+}
+
+#portfolio .container ul li a{
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    
+
+}
+
+#portfolio .container ul li a:hover{
+    text-decoration: underline;
+}
+
+
+#portfolio .container .html-css ul li{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+#portfolio .container .html-css{
+    margin: 0 20px 0 0;
+}
+
+#portfolio .container .html-css, 
+#portfolio .container .bootstrap, 
+#portfolio .container .bootstrap-sass,
+#portfolio .container .bootstrap-sass-js
+/*#portfolio .container .html-css-js*/{
+    box-shadow: 10px 10px 10px #e6e6e6;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    margin: 30px;
+    width: 230px;
+    height: 230px;
+}
+
+#portfolio .container .html-css .icons,
+#portfolio .container .bootstrap-sass .icons{
+    width: 50%;
+    margin: 0 auto;
+}
+/*
+#portfolio .container .html-css-js .icons{
+    width: 70%;
+    margin: 0 auto;
+}
+*/
+
+#portfolio .container .bootstrap .icons{
+    width: 30%;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+}
+
+#portfolio .container .bootstrap-sass .icons{
+    padding: 60px 0 0 0;
+}
+
+#portfolio .container .bootstrap-sass-js .icons{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#portfolio .container .icons{
+    padding: 60px 0 0 0;
+}
