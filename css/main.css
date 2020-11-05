@@ -26,6 +26,13 @@ h2{
     list-style: none;
 }
 
+#portfolio .container .html-css ul, #portfolio .container .bootstrap ul,
+#portfolio .container .bootstrap-sass ul,
+#portfolio .container .html-css-js ul,
+#portfolio .container .bootstrap-sass-js ul{
+    padding: 0 0 0 0;
+}
+
 #portfolio .container ul li a{
     text-decoration: none;
     font-family: 'Abel', sans-serif;
@@ -35,12 +42,6 @@ h2{
 
 #portfolio .container ul li a:hover{
     text-decoration: underline;
-}
-
-
-#portfolio .container .html-css ul li{
-    width: 50%;
-    margin: 0 auto;
 }
 
 
