@@ -33,6 +33,13 @@ h2{
     padding: 0 0 0 0;
 }
 
+/****************************
+PROVVISORIO
+******************************/
+#portfolio .container .bootstrap-sass ul li a:hover{
+    text-decoration: none;
+}
+
 #portfolio .container ul li a{
     text-decoration: none;
     font-family: 'Abel', sans-serif;
